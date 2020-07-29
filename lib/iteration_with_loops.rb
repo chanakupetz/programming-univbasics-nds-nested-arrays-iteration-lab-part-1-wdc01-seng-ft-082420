@@ -7,7 +7,8 @@ def find_even_values(src)
     element_index = 0
     while element_index < find_even_values[count].length do
       if find_even_values[count][element_index] %2 == 0
-      p find_even_values[count][element_index]
+      puts  find_even_values[count][element_index]
+      end
       # %2 == 0
       element_index += 1
     end
