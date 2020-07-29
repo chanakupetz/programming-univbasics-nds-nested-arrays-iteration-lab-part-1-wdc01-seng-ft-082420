@@ -9,7 +9,7 @@ def find_even_values(src)
       p find_even_values[count][element_index]
       element_index += 1
     end
-    
-    end
+
+    count += 1
   end
 find_even_values(array_of_arrays)
